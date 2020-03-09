@@ -98,7 +98,7 @@ public class SplashActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Log.d("LOGG","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+
                     Toast.makeText(SplashActivity.this,task.getException().getMessage(),Toast.LENGTH_SHORT).show();
                 }
             }
